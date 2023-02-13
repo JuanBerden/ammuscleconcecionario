@@ -1,64 +1,89 @@
 .footer{
-    background-color: $color1;
-}
+    background-color: $color4;
 
-.footer__div{
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
+    .footer__div{
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: flex-start;
+
+        .map{
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            p{
+                font-size: 20px;
+                color: $color1;
+            }
+
+            iframe{
+                width: 100%
+            }
+        }
+
+        .redes-sociales{
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .nuestra-pagina{
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
 }
 
 .h3-footer{
     font-size: 25px;
+    color: #000;
 }
 
-li a{
-    font-weight: 300;
-    text-decoration: none;
-    color: black;
-}
-
-.map{
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
-
-    h3{
-        font-size: 25px;
-    }
-
-    p{
-        font-size: 18px;
-    }
-
-    iframe{
-        width: 300px;
-        height: 300px;    
-    }
-}
-
-.redes-sociales{
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
-
-    h3{
-        font-size: 25px;
-    }
-
-    ul{
-        list-style: none;
+.nuestra-pagina ul{
+    list-style: none;
+    
+    li{
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
+        padding: 20px;
+        
+        a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+}
 
-        li{
-            font-size: 18px;
+.redes-sociales ul{
+    list-style: none;
+    
+    
+    li{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+
+        i{
+            padding: 10px;
+        }
+        
+        a{
+            text-decoration: none;
+            font-size: 20px;
         }
     }
 }
