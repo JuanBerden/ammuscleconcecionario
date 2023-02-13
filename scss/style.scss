@@ -1,0 +1,26 @@
+//partials
+
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/mixin";
+
+
+
+//components
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/footer";
+@import "./components/btn";
+
+
+
+//layout
+
+@import "./layout/index";
+@import "./layout/catalogo";
+@import "./layout/service";
+@import "./layout/contacto";
+@import "./layout/mediaq";
+
+

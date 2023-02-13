@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; }
+
+ul, li, ol {
+  list-style: none; }
+
+.menu__nav {
+  background-color: #6b67f1; }
+
+.navbar-brand {
+  font-size: 30px; }
+
+.nav-link {
+  font-size: 20px; }
+
+.hero-section div {
+  background-image: url(../assets/blazer-hero.jpg); }
+
+.footer {
+  background-color: #6b67f1; }
+
+.footer__div {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px; }
+
+.h3-footer {
+  font-size: 25px; }
+
+li a {
+  font-weight: 300;
+  text-decoration: none;
+  color: black; }
+
+.map {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px; }
+  .map h3 {
+    font-size: 25px; }
+  .map p {
+    font-size: 18px; }
+  .map iframe {
+    width: 300px;
+    height: 300px; }
+
+.redes-sociales {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px; }
+  .redes-sociales h3 {
+    font-size: 25px; }
+  .redes-sociales ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; }
+    .redes-sociales ul li {
+      font-size: 18px; }
