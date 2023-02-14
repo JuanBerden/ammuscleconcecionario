@@ -1,0 +1,33 @@
+.main-service{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: top;
+    background-image: url(../assets/contacto-bg.jpg);
+
+
+    div{
+        width: 100%;
+        height: 80vh;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1{
+        
+        color: #000;
+        background-color: $color4;
+        padding: 10px;
+        font-size: 60px;
+    }
+
+    p{
+        color: $color1;
+        background-color: $color4;
+        padding: 10px;
+        font-size: 20px;
+    }
+}

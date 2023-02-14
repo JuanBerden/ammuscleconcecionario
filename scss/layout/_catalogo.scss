@@ -1,21 +1,116 @@
-.main-contacto{
+.main-catalogo{
     width: 100%;
     height: 80vh;
-    background-image: url(./assets/catalogo-bg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-image: url(../assets/catalogo-bg.jpg);
+
+
+    div{
+        width: 100%;
+        height: 80vh;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     h1{
+        
         color: #000;
         background-color: $color4;
         padding: 10px;
-        font-size: 50px;
+        font-size: 60px;
     }
 
     p{
         color: $color1;
         background-color: $color4;
         padding: 10px;
-        font-size: 15px;
+        font-size: 20px;
     }
+}
+
+.catalogo-cards{
+    padding-top: 20px;
+}
+
+.div-cards__suvs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+
+
+    .card{
+        width: 375px;
+        height: 400px;
+        background-color: $color4;
+        border: 2px solid #000;
+        border-radius: 5px;
+
+        img{
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
+
+.div-cards__deportivos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+
+
+    .card{
+        width: 375px;
+        height: 400px;
+        background-color: $color4;
+        border: 2px solid #000;
+        border-radius: 5px;
+
+        img{
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
+
+.div-cards__pickups{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+
+
+    .card{
+        width: 375px;
+        height: 400px;
+        background-color: $color4;
+        border: 2px solid #000;
+        border-radius: 5px;
+
+        img{
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}
+
+.div-cards__h2{
+    text-align: center;
+    font-size: 40px;
+    background-color: $color4;
+    padding: 20px;
 }
