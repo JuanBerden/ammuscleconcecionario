@@ -63,34 +63,8 @@ ul, li, ol {
   height: 150px;
   object-fit: cover; }
 
-@keyframes hb {
-  0% {
-    background-image: url(../assets/blazer-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 3s; }
-  25% {
-    background-image: url(../assets/silverado-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 3s; }
-  50% {
-    background-image: url(../assets/mustang-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 3s; }
-  75% {
-    background-image: url(../assets/maverick-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 3s; }
-  100% {
-    background-image: url(../assets/territory-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 3s; } }
-
-.footer {
+  
+  .footer {
   background-color: #defcf9; }
   .footer .footer__div {
     padding: 20px;
@@ -152,3 +126,30 @@ ul, li, ol {
     .redes-sociales ul li a {
       text-decoration: none;
       font-size: 20px; }
+
+  @keyframes hb {
+    0% {
+      background-image: url(../assets/blazer-hero.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: 3s; }
+    25% {
+      background-image: url(../assets/silverado-hero.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: 3s; }
+    50% {
+      background-image: url(../assets/mustang-hero.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: 3s; }
+    75% {
+      background-image: url(../assets/maverick-hero.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: 3s; }
+    100% {
+      background-image: url(../assets/territory-hero.jpg);
+      background-size: cover;
+      background-position: center;
+      transition: 3s; } }
