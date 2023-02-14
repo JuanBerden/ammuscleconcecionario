@@ -31,3 +31,65 @@
         font-size: 20px;
     }
 }
+
+.section-form_consulta{
+    padding-top: 20px; 
+
+    h2{
+        text-align: center;
+        font-size: 40px;
+        background-color: $color4;
+        padding: 20px;
+    }
+}
+
+
+.div-form_consulta{
+    padding: 40px;
+
+}
+
+.form_consulta{
+    background-color: $color4;
+    width: 100%;
+    height: 100%;
+    padding: 8%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_content input{
+    padding: 1%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.form_consulta label{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-self: centers;
+    padding: 1%;
+}
+
+.form_content textarea{
+    resize: none;
+}
+
+.form_boton{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.form-select{
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-.main-service{
+.main-service {
     width: 100%;
     height: 80vh;
     background-size: cover;
@@ -6,7 +6,7 @@
     background-image: url(../assets/contacto-bg.jpg);
 
 
-    div{
+    div {
         width: 100%;
         height: 80vh;
         padding: 10px;
@@ -16,18 +16,52 @@
         align-items: flex-start;
     }
 
-    h1{
-        
+    h1 {
+
         color: #000;
         background-color: $color4;
         padding: 10px;
         font-size: 60px;
     }
 
-    p{
+    p {
         color: $color1;
         background-color: $color4;
         padding: 10px;
         font-size: 20px;
+    }
+}
+
+
+.section-service {
+    padding-top: 20px;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        background-color: $color4;
+        padding: 20px;
+    }
+
+    p{
+        font-size: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+}
+
+.div_service_1{
+    padding: 20px;
+}
+
+.div_service_2{
+    width: 250px;
+    background-color: $color4;
+    font-size: 50px;
+    text-align: start;
+    
+    a{
+        text-decoration: none;
+        padding: 20px;
     }
 }
