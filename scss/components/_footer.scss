@@ -51,12 +51,12 @@
 
 .nuestra-pagina ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
     li{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
         padding: 20px;
         
         a{
@@ -68,14 +68,14 @@
 
 .redes-sociales ul{
     list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
     
     
     li{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        align-items: center;
-        padding: 20px;
+        
 
         i{
             padding: 10px;

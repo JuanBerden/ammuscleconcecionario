@@ -39,25 +39,25 @@
 
 }
 
-
-.card{
-    width: 375px;
-    height: 350px;
-    background-color: $color4;
-}
-
 .cards{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
     padding: 30px;
+    .card{
+        width: 375px;
+        height: 350px;
+        background-color: $color4;
+    }
+    .card-img-top{
+        height: 150px;
+        object-fit: cover;
+    }
 }
 
-.card-img-top{
-    height: 150px;
-    object-fit: cover;
-}
+
+
 
 
 

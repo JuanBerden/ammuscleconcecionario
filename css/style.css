@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif; }
 
-ul, li, ol {
+ul {
   list-style: none; }
 
 .menu__nav {
@@ -47,21 +47,19 @@ ul, li, ol {
     padding: 10px;
     font-size: 20px; }
 
-.card {
-  width: 375px;
-  height: 350px;
-  background-color: #defcf9; }
-
 .cards {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
   padding: 30px; }
-
-.card-img-top {
-  height: 150px;
-  object-fit: cover; }
+  .cards .card {
+    width: 375px;
+    height: 350px;
+    background-color: #defcf9; }
+  .cards .card-img-top {
+    height: 150px;
+    object-fit: cover; }
 
 @keyframes hb {
   0% {
@@ -128,30 +126,28 @@ ul, li, ol {
   color: #000; }
 
 .nuestra-pagina ul {
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
   .nuestra-pagina ul li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     padding: 20px; }
     .nuestra-pagina ul li a {
       text-decoration: none;
       font-size: 20px; }
 
 .redes-sociales ul {
-  list-style: none; }
-  .redes-sociales ul li {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px; }
-    .redes-sociales ul li i {
-      padding: 10px; }
-    .redes-sociales ul li a {
-      text-decoration: none;
-      font-size: 20px; }
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center; }
+  .redes-sociales ul li i {
+    padding: 10px; }
+  .redes-sociales ul li a {
+    text-decoration: none;
+    font-size: 20px; }
 
 .main-contacto {
   width: 100%;
@@ -363,3 +359,123 @@ ul, li, ol {
   font-size: 40px;
   background-color: #defcf9;
   padding: 20px; }
+
+@media only screen and (max-width: 769px) {
+  .navbar-brand {
+    font-size: 20px; }
+  .hero-section {
+    height: 50vh; }
+    .hero-section div {
+      height: 50vh;
+      padding: 5px; }
+    .hero-section h1 {
+      padding: 5px;
+      font-size: 30px; }
+    .hero-section p {
+      padding: 5px;
+      font-size: 15px; }
+  .footer {
+    background-color: #defcf9; }
+    .footer .footer__div {
+      padding: 10px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .footer .footer__div .map {
+        width: 100%; }
+        .footer .footer__div .map p {
+          font-size: 12px; }
+        .footer .footer__div .map iframe {
+          width: 250px;
+          height: 250px; }
+      .footer .footer__div .redes-sociales {
+        padding-top: 30px;
+        width: 100%; }
+      .footer .footer__div .nuestra-pagina {
+        width: 100%; }
+  .h3-footer {
+    font-size: 20px; }
+  .nuestra-pagina ul {
+    list-style: none; }
+    .nuestra-pagina ul li {
+      padding: 20px; }
+      .nuestra-pagina ul li a {
+        text-decoration: none;
+        font-size: 15px; }
+  .redes-sociales ul {
+    list-style: none; }
+    .redes-sociales ul li {
+      padding: 20px; }
+      .redes-sociales ul li i {
+        padding: 10px; }
+      .redes-sociales ul li a {
+        text-decoration: none;
+        font-size: 15px; }
+  .cards {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .hero-section {
+    height: 50vh; }
+    .hero-section div {
+      height: 50vh;
+      padding: 5px; }
+    .hero-section h1 {
+      padding: 5px;
+      font-size: 30px; }
+    .hero-section p {
+      padding: 5px;
+      font-size: 15px; }
+  .main-contacto {
+    height: 40vh; }
+    .main-contacto div {
+      height: 40vh;
+      padding: 5px; }
+    .main-contacto h1 {
+      padding: 5px;
+      font-size: 25px; }
+    .main-contacto p {
+      padding: 5px;
+      font-size: 15px; }
+  .section-form_consulta {
+    padding-top: 30px; }
+    .section-form_consulta h2 {
+      font-size: 25px;
+      padding: 10px; }
+  .main-catalogo {
+    height: 40vh; }
+    .main-catalogo div {
+      height: 40vh;
+      padding: 5px; }
+    .main-catalogo h1 {
+      padding: 5px;
+      font-size: 25px; }
+    .main-catalogo p {
+      padding: 5px;
+      font-size: 15px; }
+  .div-cards__h2 {
+    font-size: 25px; }
+  .main-service {
+    height: 40vh; }
+    .main-service div {
+      height: 40vh;
+      padding: 5px; }
+    .main-service h1 {
+      padding: 5px;
+      font-size: 25px; }
+    .main-service p {
+      padding: 5px;
+      font-size: 15px; }
+  .section-service h2 {
+    font-size: 25px;
+    padding: 10px; }
+  .section-service p {
+    font-size: 15px; }
+  .div_service_1 {
+    padding: 10px;
+    padding-bottom: 30px; }
+    .div_service_1 .div_service_2 {
+      width: 150px;
+      font-size: 25px; }
+      .div_service_1 .div_service_2 a {
+        padding: 20px; } }
